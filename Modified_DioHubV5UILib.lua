@@ -507,9 +507,9 @@ PageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			PageButton.Size = UDim2.new(1, -14, 0, 20)
 			PageButton.Font = Enum.Font.Gotham
 			PageButton.Text = name
-			PageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+			PageButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 			PageButton.TextSize = 12.000
-			PageButton.TextTransparency = 0.5
+			PageButton.TextTransparency = 0.0
 			PageButton.TextXAlignment = Enum.TextXAlignment.Left
 
 			PageButton.MouseButton1Down:Connect(function()
