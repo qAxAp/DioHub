@@ -117,18 +117,6 @@ Window.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Minimize.Size = UDim2.new(0, 26, 0, 30)
 	Minimize.Image = "http://www.roblox.com/asset/?id=6035067836"
 
-	_4pxShadow2px_2.Name = "4pxShadow(2px)"
-	_4pxShadow2px_2.Parent = Window
-	_4pxShadow2px_2.BackgroundColor3 = Color3.fromRGB(0, 255, 128)
-	_4pxShadow2px_2.BackgroundTransparency = 1.000
-	_4pxShadow2px_2.Position = UDim2.new(0, -15, 0, -15)
-	_4pxShadow2px_2.Selectable = true
-	_4pxShadow2px_2.Size = UDim2.new(1, 30, 1, 30)
-	_4pxShadow2px_2.Image = "http://www.roblox.com/asset/?id=5761504593"
-	_4pxShadow2px_2.ImageColor3 = Color3.fromRGB(255, 255, 255)
-	_4pxShadow2px_2.ImageTransparency = 0.300
-	_4pxShadow2px_2.ScaleType = Enum.ScaleType.Slice
-	_4pxShadow2px_2.SliceCenter = Rect.new(17, 17, 283, 283)
 
 	Close.MouseButton1Click:Connect(function()
 		TS:Create(Window, TweenInfo.new(0.5), {Size = UDim2.new(0, 600, 0, 0)}):Play()
@@ -242,7 +230,7 @@ Tabs.BackgroundColor3 = Color3.fromRGB(0, 255, 128)
 		SectionLabel.Size = UDim2.new(1, -7, 0, 30)
 		SectionLabel.Font = Enum.Font.GothamBlack
 		SectionLabel.Text = name --"Section 1"
-		SectionLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		SectionLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 		SectionLabel.TextSize = 12.000
 		SectionLabel.TextXAlignment = Enum.TextXAlignment.Left
 
