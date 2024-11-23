@@ -505,10 +505,10 @@ Tabs.BackgroundColor3 = Color3.fromRGB(0, 255, 128)
 PageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			PageButton.BackgroundTransparency = 1.000
 			PageButton.Size = UDim2.new(1, -14, 0, 20)
-			PageButton.Font = Enum.Font.Gotham
+			PageButton.Font = Enum.Font.FredokaOne
 			PageButton.Text = name
 			PageButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-			PageButton.TextSize = 20.000
+			PageButton.TextSize = 14.000
 			PageButton.TextTransparency = 0.0
 			PageButton.TextXAlignment = Enum.TextXAlignment.Left
 
